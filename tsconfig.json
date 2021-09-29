@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports" : true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.css"]
+}
