@@ -1,0 +1,17 @@
+
+.header {
+  @apply bg-blue-400 flex w-full flex-row p-2  mb-5;
+}
+
+.header > h1 {
+  @apply flex-grow-0;
+}
+
+.nav {
+  @apply flex flex-wrap items-center justify-around
+    text-lg flex-grow px-4;
+}
+
+.active {
+  @apply bg-red-400;
+}
